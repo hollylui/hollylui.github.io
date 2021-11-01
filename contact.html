@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="icon" type="image/png" href="./images/logo_holly.png" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Newsreader:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- style sheet -->
+    <link rel="stylesheet" href="styles/about-contact.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <title>HOLLY | Contact</title>
+
+    <!-- Script to link other html to index.html -->
+    <script src="./scripts/link-html.js"></script>
+  </head>
+
+  <body id="backtotop">
+    <h1 class="visually-hidden">Holly | Contact</h1>
+    <!-- nav: link to navbar.html -->
+    <div class="sticky-top">
+      <div data-include="navbar.html"></div>
+    </div>
+
+    <!-- header -->
+    <header>
+      <div data-include="header-footer.html"></div>
+    </header>
+
+    <!-- main -->
+    <main>
+      <!-- sub-menu -->
+      <section class="submenu"></section>
+
+      <!-- about section -->
+      <section class="content">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-8">
+              <h3>Contact: Holly</h3>
+              <div>
+                <div class="img-container">
+                  <img
+                    src="./images/about_me/aboutme6.jpg"
+                    alt="Working with laptop"
+                  />
+                </div>
+
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                  cursus nibh et congue aliquam. Fusce ipsum tellus,
+                  pellentesque a consequat eget, luctus eget nisi. Maecenas
+                  tellus elit, mattis eget luctus vitae, mollis quis metus. Ut
+                  quis turpis vel quam varius eleifend id id augue. Vestibulum
+                  eu arcu feugiat, sodales orci ut, dictum mauris.Lorem ipsum
+                  dolor sit amet, consectetur adipiscing elit. In cursus nibh et
+                  congue aliquam. Fusce ipsum tellus, pellentesque a consequat
+                  eget, luctus eget nisi. Maecenas tellus elit, mattis eget
+                  luctus vitae, mollis quis metus. Ut quis turpis vel quam
+                  varius eleifend id id augue. Vestibulum eu arcu feugiat,
+                  sodales orci ut, dictum mauris.
+                </p>
+              </div>
+              <hr />
+
+              <!-- form -->
+              <h3 class="form">Form</h3>
+              <p><span class="asterisk">*</span> required</p>
+
+              <form class="col-12" action="">
+                <div class="row">
+                  <div class="col">
+                    <label for="name">Name<span class="asterisk">*</span></label
+                    ><br />
+                    <input type="text" id="name" name="name" required />
+                  </div>
+
+                  <div class="col">
+                    <label for="email"
+                      >Email<span class="asterisk">*</span></label
+                    ><br />
+                    <input type="email" id="email" name="email" required />
+                  </div>
+
+                  <div class="col">
+                    <label for="subject"
+                      >Subject<span class="asterisk"></span></label
+                    ><br />
+                    <input
+                      type="subject"
+                      id="subject"
+                      name="subject"
+                      required
+                    />
+                  </div>
+
+                  <div class="row">
+                    <label for="message"
+                      >Message<span class="asterisk">*</span></label
+                    ><br />
+                    <textarea
+                      name="message"
+                      id="message"
+                      cols="50%"
+                      rows="10"
+                    ></textarea>
+                  </div>
+                  <div class="col">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <!-- Side section -->
+            <div data-include="rightside.html"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- back to top at the bottom -->
+      <div data-include="backtotop.html"></div>
+
+      <!-- footer -->
+
+      <footer>
+        <div data-include="header-footer.html"></div>
+
+        <hr />
+
+        <div class="copyright">
+          <p>&copy; 2019 - 2021 All right reserved.</p>
+        </div>
+      </footer>
+    </main>
+
+    <!-- script section -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
